@@ -1,4 +1,6 @@
-﻿namespace SimpleCode_Course_Part_2;
+﻿using SimpleCode_Course_Part_2.Lesson58;
+
+namespace SimpleCode_Course_Part_2;
 
 /// <summary>
 /// ИНКАПСУЛЯЦИЯ C#
@@ -8,29 +10,6 @@
 /// </summary>
 public class Lesson_58
 {
-    class Gun
-    {
-        private bool isLoaded;
-
-        private void Reload()
-        {
-            Console.WriteLine("Заряжаю...");
-            isLoaded = true;
-            Console.WriteLine("Заряжено!");
-        }
-
-        public void Shoot()
-        {
-            if (!isLoaded)
-            {
-                Console.WriteLine("Орудие не заряжено!");
-                Reload();
-            }
-
-            Console.WriteLine("Пыщ - Пыщ\n");
-            isLoaded = false;
-        }
-    }
     
     public static void Start()
     {
