@@ -4,41 +4,39 @@ public class Student
 {
     public Student(string lastName, DateTime birthDate)
     {
-        _lastName = lastName;
-        _birthDate = birthDate;
+        lastName = lastName;
+        this.birthDate = birthDate;
     }
 
-    public Student(string lastName, string firstName, string middleName, DateTime birthDate)
+    public Student(string lastName, string firstName, string middleName, DateTime birthDate) : this(lastName, birthDate)
     {
-        _firstName = firstName;
-        _middleName = middleName;
-        _lastName = lastName;
-        _birthDate = birthDate;
+        this.firstName = firstName;
+        this.middleName = middleName;
     }
 
     public Student(Student student)
     {
-        _firstName = student._firstName;
-        _middleName = student._middleName;
-        _lastName = student._lastName;
-        _birthDate = student._birthDate;
+        this.firstName = student.firstName;
+        this.middleName = student.middleName;
+        this.lastName = student.lastName;
+        this.birthDate = student.birthDate;
     }
 
-    private string _firstName;
-    private string _middleName;
-    private string _lastName;
-    private DateTime _birthDate;
+    private string firstName;
+    private string middleName;
+    private string lastName;
+    private DateTime birthDate;
 
     public void Print()
     {
-        Console.WriteLine($"Имя: {_firstName}\n " +
-                          $"Фамилия: {_lastName}\n " +
-                          $"Отчество: {_middleName}\n " +
-                          $"Дата Рождения: {_birthDate}");
+        Console.WriteLine($"Имя: {firstName}\n " +
+                          $"Фамилия: {lastName}\n " +
+                          $"Отчество: {middleName}\n " +
+                          $"Дата Рождения: {birthDate}");
     }
     
     public void SetLastName(string lastName)
     {
-        this._lastName = lastName;
+        this.lastName = lastName;
     }
 }
