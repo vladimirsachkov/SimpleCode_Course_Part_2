@@ -1,4 +1,4 @@
-﻿namespace SimpleCode_Course_Part_2;
+﻿namespace SimpleCode_Course_Part_2.Lesson55;
 
 public class Student
 {
