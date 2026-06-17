@@ -1,4 +1,5 @@
 ﻿using SimpleCode_Course_Part_2.Lesson62;
+using Point = SimpleCode_Course_Part_2.Lesson62.Point;
 
 namespace SimpleCode_Course_Part_2;
 

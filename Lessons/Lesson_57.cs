@@ -1,5 +1,6 @@
 ﻿using SimpleCode_Course_Part_2.Lesson57;
 using System.Reflection;
+using Point = SimpleCode_Course_Part_2.Lesson57.Point;
 
 namespace SimpleCode_Course_Part_2;
 

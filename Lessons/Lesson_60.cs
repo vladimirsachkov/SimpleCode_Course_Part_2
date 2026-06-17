@@ -1,5 +1,6 @@
 ﻿using SimpleCode_Course_Part_2.Lesson60;
 using static SimpleCode_Course_Part_2.Lesson60.Student;
+using Point = SimpleCode_Course_Part_2.Lesson60.Point;
 
 
 namespace SimpleCode_Course_Part_2;
