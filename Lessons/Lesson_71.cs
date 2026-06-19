@@ -52,6 +52,5 @@ public class Lesson_71
         
         Person[] people = {student, teacher};
         
-        
     }
 }
