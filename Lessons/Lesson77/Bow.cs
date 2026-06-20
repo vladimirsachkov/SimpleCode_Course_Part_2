@@ -1,4 +1,4 @@
-﻿namespace Lesson77;
+﻿namespace Lesson76;
 
 public class Bow : Weapon
 {

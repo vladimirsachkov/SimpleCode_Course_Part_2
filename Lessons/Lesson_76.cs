@@ -1,13 +1,12 @@
-﻿using Lesson76;
-
-namespace SimpleCode_Course_Part_2;
+﻿namespace Lesson76;
 
 /// <summary>
-/// Полиморфизм
-/// | виртуальные методы c#
-/// | virtual override c#
-/// | C# ОТ НОВИЧКА К ПРОФЕССИОНАЛУ
-/// | # 75
+/// Абстрактные классы
+/// | зачем нужны абстрактные методы
+/// | abstract c#
+/// | полиморфизм
+/// | C# ООП
+/// | # 76
 /// </summary>
 public class Lesson_76
 {
